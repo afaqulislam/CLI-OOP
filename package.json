@@ -1,10 +1,12 @@
 {
-  "name": "cli-object-oriented-programming",
+  "name": "aui-cli-object-oriented-programming",
   "version": "1.0.0",
   "description": "This Is A CLI Based Oject Oriented Programming Project. This Project Developed By Afaq UL Islam.Run This Command To Your CMD For Testing 'npx cli-object-oriented-programming'",
   "main": "main.js",
   "type": "module",
-  "bin": "main.js",
+  "bin": {
+    "aui_cli-object-oriented-programming": "main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
